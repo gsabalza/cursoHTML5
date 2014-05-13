@@ -6,19 +6,255 @@
  *    user zoom.
  */
 
-html {
+/*html {
   font-family: sans-serif; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
+/*  -ms-text-size-adjust: 100%; /* 2 */
+/*  -webkit-text-size-adjust: 100%; /* 2 */
+/*}*/
 
 /**
  * Remove default margin.
  */
-
 body {
   margin: 0;
+  background-color: #fce3ee;
 }
+
+
+/* Lo definido por Gennys */
+#contenedor {
+  height: 30cm;
+  width: 30cm;
+}
+
+#encabezado {
+  border-radius: 30px;
+  height: 8cm;
+  width: 30cm;
+  float: left;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+  transition: all;
+  background-image: url(../imagenes/encabezado.png);
+  background-color: #EFF2FF;
+  background-repeat: repeat-x;
+  margin-top: 10px;
+  box-shadow: 3px 3px 6px #000;
+  -webkit-box-shadow: 3px 3px 5px #000;
+  -moz-box-shadow: 3px 3px 6px #000;
+  filter: shadow(color=#000000, direction=135, strength=2);
+}
+
+#contenido {
+  border-radius: 30px;
+  float: left;
+  height: 21.4cm;
+  width: 30cm;
+  margin-top: 10px;
+  background-image: url(../imagenes/contenido.png);
+  background-repeat: repeat-x;
+  box-shadow: 3px 3px 6px #000;
+  -webkit-box-shadow: 3px 3px 5px #000;
+  -moz-box-shadow: 3px 3px 6px #000;
+  filter: shadow(color=#000000, direction=135, strength=2);
+}
+#alfa2 {
+  float: left;
+  height: 15cm;
+  width: 30cm;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
+#contenedor #contenido #alfa2 .slider .fluid_container p {
+  font-family: Gabriola;
+  font-size: 38px;
+  color: #FFF;
+  float: left;
+  margin: auto;
+}
+#logo {
+  background-image: url(../imagenes/logo.png);
+  float: left;
+  height: 7.5cm;
+  width: 8cm;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+}
+#imagenes {
+  float: left;
+  height: 8cm;
+  width: 16.5cm;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: 2cm;
+}
+#alfa1 {
+  background-image: url(../imagenes/alfa1.png);
+  height: 8cm;
+  width: 30cm;
+  margin: auto;
+  float: left;
+}
+#botones {
+  float: right;
+  height: 3cm;
+  width: 19cm;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: auto;
+}
+
+#botones ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+#botones a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-family: Gabriola;
+  font-size: 30px;
+  display: inline;
+  padding-left: 15px;
+  padding-right: 18px;
+  color: #FFF;
+  border: 1px inset #890A33;
+  background-color: #4F0011;
+  float: left;
+  width: 113px;
+  margin-left: 20px;
+  border: 0.05em inset #910132;
+  border-radius: 0.25em;
+  padding: 0.2em;
+  -ms-transition: all 0.5s ease-in;/*para que lo lea i e explorer*/
+  -moz-transition: all 0.5s ease-in;/*para que lo lea mozilla*/
+  -webkit-transition: all 0.5s ease-in;/*para que lo lea chrome*/
+  -o-transition: all 0.5s ease-in;/*para que lo lea opera*/
+  transition: all 0.5s ease-in;
+}
+#botones a:hover {
+  /*border-radius: 18px;*/
+  font-family: Gabriola;
+  font-size: 30px;
+  display: inline;
+  padding-left: 14px;
+  padding-right: 18px;
+  color: #4F0011;
+  border: 1px outset #890A33;
+  background-color: #8F0132;
+  float: left;
+  width: 93px;
+  margin-left: 20px;
+  border: 0.05em groove #4F0011;
+  border-radius: 0 0.5em 0 0.5em;
+}
+#piedepagina {
+  border-radius: 15px;
+  height: 10cm;
+  width: 30cm;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+#piedepagina .redessociales   {
+  float: left;
+  height: 1.8cm;
+  width: 7cm;
+}
+#contenedor #contenido #alfa2 .slider .fluid_container #camera_wrap_1 {
+  font-family: Gabriola;
+  font-size: 24px;
+}
+/*#piedepagina .twiter    {
+  float: left;
+  height: 1.9cm;
+  width: 2cm;
+  margin-left: 20px;
+  background-image: url(imagenes/redes%20sociales/red_twitter.png);
+}
+#piedepagina .facebook    {
+  float: left;
+  height: 1.9cm;
+  width: 2cm;
+  margin-left: 20px;
+  background-image: url(imagenes/redes%20sociales/facebook.png);
+}*/
+#contenedor #contenido #alfa2 .slider {
+  float: left;
+  width: 30cm;
+}
+#piedepagina .redessociales .facebook a {
+  float: left;
+  height: 1.9cm;
+  width: 2cm;
+  margin-left: 20px;
+  background-image: url(imagenes/redes%20sociales/facebook.png);
+}
+#piedepagina .redessociales .twiter a {
+  float: left;
+  height: 1.9cm;
+  width: 2cm;
+  margin-left: 20px;
+  background-image: url(imagenes/redes%20sociales/red_twitter.png);
+}
+#piedepagina .redessociales .twiter a hover {
+  
+    
+}
+#piedepagina .redessociales .facebook a hover {
+  
+}
+
+#piedepagina .copy h5 {
+  font-family: Gabriola;
+  font-size: 16px;
+  color: #910132;
+  float: left;
+  margin-left: 100px;
+}
+#piedepagina .copy h6 {
+  font-family: Gabriola;
+  font-size: 18px;
+  color: #900032;
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+#piedepagina .navegadores p {
+  font-family: Gabriola;
+  font-size: 15px;
+  color: #800012;
+  margin-top: 2px;
+}
+#piedepagina .copy {
+  float: left;
+  height: 2cm;
+  width: 15cm;
+}
+#piedepagina .navegadores {
+  height: 6cm;
+  width: 5cm;
+  float: left;
+  background-image: url(imagenes/redes%20);
+  margin-left: 1cm;
+}
+
+/*  fin de lo agregado por Gennys */
+
+
+/*body {
+  margin: 0;
+  background-color: #fce3ee;
+}*/
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -416,10 +652,14 @@ optgroup {
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 0;#contenedor {
+  text-align: left;
+  margin: auto;
 }
+
 
 td,
 th {
   padding: 0;
 }
+
