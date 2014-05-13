@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<h1>Desarrollo WEB</h1>
+        <p><time pubdate datetime="2014-05-12"></time></p>
+    </header>
+	<section>
+	<article>
+		<p>Un tren para integrar a tres capitales costeñas </P>
+		DNP entregó el diagnostico para este proyecto y ahora la Uninorte adelanta un estudio para determinar su viabilidad técnica y económica.
+	</article>
+	</section>
+</body>
+</html>
